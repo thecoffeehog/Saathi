@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "427142764306",
+    "firebase_url": "https://saathi-96145.firebaseio.com",
+    "project_id": "saathi-96145",
+    "storage_bucket": "saathi-96145.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:427142764306:android:084779ce2d03485d",
+        "android_client_info": {
+          "package_name": "com.techredefined.saathi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "427142764306-mabjrjl765gm0es7h3eadehn46hfo9a7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.techredefined.saathi",
+            "certificate_hash": "69c93831e4e4e30cead199dfe1b9653b43af8e19"
+          }
+        },
+        {
+          "client_id": "427142764306-5702u52ncmrb2483at5j7p9hein4dp10.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXwHwplsX2r7f5zRU7MMQSxisL2b1UhTE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "427142764306-5702u52ncmrb2483at5j7p9hein4dp10.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
