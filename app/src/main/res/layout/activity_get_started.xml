@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:weightSum="4"
-    tools:context=".GetStarted">
+    tools:context=".AuthenticatorActivity">
 
     <RelativeLayout
         android:layout_width="fill_parent"
@@ -34,8 +34,8 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:hint="@string/hint_password"
                 android:fontFamily="sans-serif"
+                android:hint="@string/hint_password"
                 android:inputType="textPassword" />
         </LinearLayout>
 
@@ -67,4 +67,17 @@
 
     </RelativeLayout>
 
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/facebook_ogin_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="30dp" />
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/sign_in_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" />
 </LinearLayout>

@@ -14,4 +14,9 @@
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
+    <style name="splashScreenTheme" parent="@android:style/Theme.DeviceDefault.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/map_marker</item>
+        <item name="android:background">@color/bg_screen1</item>
+    </style>
+
 </resources>
