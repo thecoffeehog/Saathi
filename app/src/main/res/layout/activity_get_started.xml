@@ -7,73 +7,86 @@
     android:weightSum="4"
     tools:context=".AuthenticatorActivity">
 
-    <RelativeLayout
+
+    <LinearLayout
+        android:id="@+id/email_password_fields"
         android:layout_width="fill_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:gravity="center_vertical">
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp">
 
-        <LinearLayout
-            android:id="@+id/email_password_fields"
+        <EditText
+            android:id="@+id/field_email"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:paddingLeft="16dp"
-            android:paddingRight="16dp">
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:hint="@string/hint_email"
+            android:inputType="textEmailAddress" />
 
-            <EditText
-                android:id="@+id/field_email"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:hint="@string/hint_email"
-                android:inputType="textEmailAddress" />
-
-            <EditText
-                android:id="@+id/field_password"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:fontFamily="sans-serif"
-                android:hint="@string/hint_password"
-                android:inputType="textPassword" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:id="@+id/email_password_buttons"
+        <EditText
+            android:id="@+id/field_password"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/email_password_fields"
-            android:orientation="horizontal"
-            android:paddingLeft="16dp"
-            android:paddingRight="16dp">
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif"
+            android:hint="@string/hint_password"
+            android:inputType="textPassword" />
 
-            <Button
-                android:id="@+id/email_sign_in_button"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="@string/sign_in"
-                />
+    </LinearLayout>
 
-            <Button
-                android:id="@+id/mail_create_account_button"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="@string/create_account"
-                 />
-        </LinearLayout>
 
-    </RelativeLayout>
+    <LinearLayout
+        android:id="@+id/email_password_buttons"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/email_password_fields"
+        android:orientation="horizontal"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp">
+
+        <Button
+            android:id="@+id/email_sign_in_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/bg_screen1"
+            android:text="@string/sign_in"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/mail_create_account_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/bg_screen1"
+            android:text="@string/create_account"
+            android:textColor="@android:color/white"
+
+            />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="20dp"
+        android:text="@string/continue_with"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
 
     <com.facebook.login.widget.LoginButton
         android:id="@+id/facebook_ogin_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_marginBottom="30dp"
-        android:layout_marginTop="30dp" />
+        android:layout_marginBottom="20dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp" />
 
     <com.google.android.gms.common.SignInButton
         android:id="@+id/sign_in_button"

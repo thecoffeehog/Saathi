@@ -104,5 +104,13 @@
     <string name="email_fmt">Email: %s</string>
     <string name="title_activity_maps">Saathi</string>
     <string name="ok">OK</string>
+    <string name="get_help">GET HELP</string>
+    <string name="continue_with">OR CONTINUE WITH:</string>
+    <string name="enter_mobile_number">Please enter your mobile number to continue</string>
     <string name="permission_location_rationale">Location permission is needed to locate you and share your location with helpers.</string>
+
+    <!--    Permissions    -->
+    <string name="permission_rationale_location">Access to the location service is required to demonstrate the \'my location\' feature, which shows your current location on the map.</string>
+    <string name="location_permission_denied">This sample requires location permission to enable the \'my location\' layer. Please try again and grant access to use the location.\nIf the permission has been permanently denied, it can be enabled from the System Settings &gt; Apps &gt; \'Google Maps API Demos\'.</string>
+    <string name="permission_required_toast">Location permission is required for this demo.</string>
 </resources>

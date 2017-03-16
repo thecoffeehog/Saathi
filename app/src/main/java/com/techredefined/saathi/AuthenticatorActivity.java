@@ -53,6 +53,10 @@ public class AuthenticatorActivity extends FragmentActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_get_started);
 
+        SignInButton signInButton = (SignInButton) findViewById(R.id.sign_in_button);
+        signInButton.setSize(SignInButton.SIZE_WIDE);
+
+
         //Buttons From Layout file
         emailSignUpButton = (Button) findViewById(R.id.mail_create_account_button); //Sign Up Button
         emailSignInButton = (Button) findViewById(R.id.email_sign_in_button); //Sign In Button
@@ -306,7 +310,7 @@ public class AuthenticatorActivity extends FragmentActivity {
     }
 
     private void startMapsActivity() {
-        startActivity(new Intent(AuthenticatorActivity.this, MapsActivity.class));
+        startActivity(new Intent(AuthenticatorActivity.this, MainActivity.class));
     }
 
 
