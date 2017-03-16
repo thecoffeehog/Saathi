@@ -11,4 +11,4 @@ Saathi lets you:
 - Get help at any point in time from anybody near you
 - Inform Police authorities about your situation and let them know about your location
 - Help people near you when they need it the most
-- Make the world a better and a safer place :)
+- Make the world a safer place for you and your loved ones :)
