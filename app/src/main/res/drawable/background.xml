@@ -6,7 +6,7 @@
     <item>
         <bitmap
             android:gravity="center"
-            android:src="@drawable/map_marker">
+            android:src="@drawable/saathi256">
 
         </bitmap>
     </item>

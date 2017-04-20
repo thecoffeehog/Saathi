@@ -20,7 +20,7 @@
             android:name="com.facebook.sdk.ApplicationId"
             android:value="@string/facebook_app_id" />
 
-        <activity android:name=".WelcomeActivity"></activity>
+        <activity android:name=".WelcomeActivity" />
         <activity
             android:name=".MainActivity"
             android:label="@string/title_activity_welcome" />
@@ -61,7 +61,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".PhoneNumberSetup"></activity>
+        <activity android:name=".PhoneNumberSetup" />
+        <activity android:name=".DatabaseTest"></activity>
     </application>
 
 </manifest>
